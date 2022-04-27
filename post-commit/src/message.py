@@ -1,4 +1,4 @@
 print("Hello World")
 
-with open('readme.txt', 'w') as f:
-    f.write('readme')
+with open('/tmp/readme.txt', 'w') as f:
+    f.write('Hello World')
