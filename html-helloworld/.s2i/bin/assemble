@@ -5,5 +5,5 @@
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
 echo "---> Creating info page"
-echo "Page built on $DATE" >> ./info.html
+echo "Page built on $DATE" >> /var/www/html/info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> /var/www/html/info.html
