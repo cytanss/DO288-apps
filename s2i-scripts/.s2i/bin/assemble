@@ -1,6 +1,12 @@
 #!/bin/bash
 
-/usr/libexec/s2i/assemble
+#/usr/libexec/s2i/assemble
+
+set -e
+
+source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
+
+config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
